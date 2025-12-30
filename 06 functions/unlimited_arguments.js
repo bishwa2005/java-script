@@ -1,7 +1,7 @@
 function add(){
     console.log(arguments[0]);
 
-    for(let i=0;i<arguments.length;i=i+1){
+    for(let i=0;i<arguments.length;i++){
         console.log(arguments[i]);
     }
 }
