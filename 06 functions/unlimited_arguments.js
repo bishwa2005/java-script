@@ -1,6 +1,6 @@
 function add(){
     console.log(arguments[0]);
-
+    console.log(arguments.length)
     for(let i=0;i<arguments.length;i++){
         console.log(arguments[i]);
     }
