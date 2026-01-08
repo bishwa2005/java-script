@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a sample HTML page demonstrating common tags.</p>
+        </section>
+
+        <section id="content">
+            <h2>Content</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an article with some <strong>important</strong> information.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        /*query selectors
+            -tag name
+            -id #
+            -class .
+        */
+
+        // document.querySelector('body').innerHTML="hacked!"
+        
+        // query selector hamashe only first occurence ko hi leta hai in all case
+        // agr 2/3 div ho query select kare to sirf pehla wala hi aayega
+
+        // selecting elements by id
+        document.querySelector('#about').innerHTML="nothing"
+
+        console.log(document.querySelector('#content').children)
+
+    </script>
+</body>
+</html>
